@@ -1,0 +1,4 @@
+name: mobster
+recipe: drupal8
+config:
+  webroot: .

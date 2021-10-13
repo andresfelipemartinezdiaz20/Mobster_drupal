@@ -1,0 +1,53 @@
+.site-footer {
+    background-color: #383340;
+    position: relative;
+    padding: 100px 0 20px;
+}
+
+.region-footer-first {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        
+
+        .menu {
+            display: block;
+        }
+    }
+
+    .menu-item {
+        overflow: hidden;
+    }
+
+    .menu-item--expanded {
+        min-width: 160px;
+        
+        &::marker {
+            display: none;
+        }
+    }
+
+    span {
+        color: #fff;
+        font-size: 1.3125rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    ul.menu a {
+        padding: 6px 0;
+        color: #B2B4BF;
+        display: block;
+    }
+
+    @media(max-width: $tablet-min){
+        .menu-item--expanded {
+            margin: 0 auto;
+        }
+    }
+
+}

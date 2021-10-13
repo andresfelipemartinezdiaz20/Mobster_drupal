@@ -1,0 +1,67 @@
+#block-mobster-theme-bloquedemarcas {
+    order: 2;
+    width: 100%;
+}
+
+.field--name-field-marcas {
+    position: relative;
+    padding: 100px 0;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+    .field__label {
+        display: none;
+    }
+
+    .field__items {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+
+    .field__item {
+        padding: 0 15px;
+        margin: 0 auto;
+        visibility: visible;
+        animation-name: zoomIn;
+
+        .field__item {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    img {
+        width: auto;
+        max-height: 100px;
+    }
+
+
+    @media(max-width: $tablet-min){
+        .field__items {
+            flex-wrap: wrap;
+        }
+
+        .field__item {
+            width: 50%;
+            padding: 10px 0;
+        }
+
+        img {
+            width: auto;
+            max-height: 100px;
+            height: 100px;
+            max-width: initial;
+        }
+    }
+    @media(max-width: $mobile-mid){
+
+        .field__item {
+            width: 100%;
+        }
+    }
+}

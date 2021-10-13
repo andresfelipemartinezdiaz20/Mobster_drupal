@@ -1,0 +1,10 @@
+global:
+  version: VERSION
+  css:
+    theme:
+      assets/css/styles.css:  {}
+      assets/css/maicons.css: {}
+      assets/library/animate/animate.css: {}
+  js:
+    assets/js/scripts.js: {}
+    assets/library/wow/wow.min.js: {}

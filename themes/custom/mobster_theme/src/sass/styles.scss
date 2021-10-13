@@ -1,0 +1,21 @@
+//-------------plantillas base-----------------//
+@import "layout/layout";
+@import "base/base";
+
+//---------windows---------------------//
+
+//---------------estrcucture base pages---------//
+
+//---------------blocks-------------------------//
+@import "blocks/banner";
+@import "blocks/marcas";
+@import "blocks/description";
+
+//---------------layouts-----------------------//
+@import "layout/footer";
+@import "layout/header";
+
+//---------------components-----------------------//
+
+//------------------pages------------------------//
+@import "pages/contact";
