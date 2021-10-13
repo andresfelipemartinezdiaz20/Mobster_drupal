@@ -1,0 +1,25 @@
+uuid: 83043061-6ff5-425d-bf04-e900bbe3bb9d
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mobster_theme
+id: mobster_theme_navegacionprincipal
+theme: mobster_theme
+region: header
+weight: 1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navegación principal'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

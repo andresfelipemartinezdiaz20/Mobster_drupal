@@ -1,0 +1,38 @@
+uuid: 7fa87feb-fa1c-4e7a-8573-2d16556103cc
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_marcas
+    - field.field.block_content.bloque_marcas.body
+    - field.field.block_content.bloque_marcas.field_marcas
+  module:
+    - paragraphs
+id: block_content.bloque_marcas.default
+targetEntityType: block_content
+bundle: bloque_marcas
+mode: default
+content:
+  field_marcas:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Párrafo
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  langcode: true

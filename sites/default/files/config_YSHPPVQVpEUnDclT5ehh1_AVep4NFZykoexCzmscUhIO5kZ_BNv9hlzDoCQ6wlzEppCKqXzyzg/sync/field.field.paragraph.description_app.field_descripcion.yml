@@ -1,0 +1,21 @@
+uuid: d17c9918-aaef-47d3-8ca3-1c927d2fa8f8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_descripcion
+    - paragraphs.paragraphs_type.description_app
+  module:
+    - text
+id: paragraph.description_app.field_descripcion
+field_name: field_descripcion
+entity_type: paragraph
+bundle: description_app
+label: Descripción
+description: 'Descripción corta'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

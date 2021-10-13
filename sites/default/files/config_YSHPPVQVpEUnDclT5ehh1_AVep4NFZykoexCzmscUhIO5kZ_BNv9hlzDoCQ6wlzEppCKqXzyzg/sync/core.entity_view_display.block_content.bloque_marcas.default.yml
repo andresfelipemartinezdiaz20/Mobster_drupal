@@ -1,0 +1,27 @@
+uuid: 1dbdb917-0075-4079-96f5-ca84337c7ae5
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_marcas
+    - field.field.block_content.bloque_marcas.body
+    - field.field.block_content.bloque_marcas.field_marcas
+  module:
+    - entity_reference_revisions
+id: block_content.bloque_marcas.default
+targetEntityType: block_content
+bundle: bloque_marcas
+mode: default
+content:
+  field_marcas:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  langcode: true

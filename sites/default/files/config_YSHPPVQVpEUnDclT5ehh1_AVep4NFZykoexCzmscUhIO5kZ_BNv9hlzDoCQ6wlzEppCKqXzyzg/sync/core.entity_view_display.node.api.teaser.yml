@@ -1,0 +1,29 @@
+uuid: b1bce277-3b97-44df-b5f1-dfb2b91aa411
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.api.field_description
+    - field.field.node.api.field_editor_
+    - field.field.node.api.field_imagen_1
+    - field.field.node.api.field_listado_de_descripcion
+    - node.type.api
+  module:
+    - user
+id: node.api.teaser
+targetEntityType: node
+bundle: api
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_description: true
+  field_editor_: true
+  field_imagen_1: true
+  field_listado_de_descripcion: true
+  langcode: true

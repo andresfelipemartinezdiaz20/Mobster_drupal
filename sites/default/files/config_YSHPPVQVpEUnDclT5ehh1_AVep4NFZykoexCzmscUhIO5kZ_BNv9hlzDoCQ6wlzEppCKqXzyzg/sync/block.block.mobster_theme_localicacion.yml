@@ -1,0 +1,31 @@
+uuid: 243aecb7-b0c9-43fe-a89e-56ce97b65167
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:876ac503-46a9-45f7-895e-4a9b2e12b6b1'
+  module:
+    - block_content
+    - system
+  theme:
+    - mobster_theme
+id: mobster_theme_localicacion
+theme: mobster_theme
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:876ac503-46a9-45f7-895e-4a9b2e12b6b1'
+settings:
+  id: 'block_content:876ac503-46a9-45f7-895e-4a9b2e12b6b1'
+  label: localicacion
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: 6767c412-1695-4244-83c9-29fc77cec0e5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_editor_
+    - node.type.api
+  module:
+    - text
+id: node.api.field_editor_
+field_name: field_editor_
+entity_type: node
+bundle: api
+label: 'Aplicación de Editor '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

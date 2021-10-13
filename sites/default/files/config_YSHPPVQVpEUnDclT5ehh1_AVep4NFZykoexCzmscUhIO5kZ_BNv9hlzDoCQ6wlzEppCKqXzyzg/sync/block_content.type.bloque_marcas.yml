@@ -1,0 +1,8 @@
+uuid: d00d4c06-9ec3-4ab5-948d-63b0fa4d026c
+langcode: es
+status: true
+dependencies: {  }
+id: bloque_marcas
+label: 'Bloque marcas'
+revision: 0
+description: ''

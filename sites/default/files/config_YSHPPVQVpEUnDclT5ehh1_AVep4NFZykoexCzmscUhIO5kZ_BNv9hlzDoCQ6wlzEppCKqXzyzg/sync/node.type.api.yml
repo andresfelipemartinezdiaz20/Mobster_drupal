@@ -1,0 +1,18 @@
+uuid: 22252f04-2704-4e36-be58-2d072276d3b5
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: API
+type: api
+description: 'tipos de contenido de Api'
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: true

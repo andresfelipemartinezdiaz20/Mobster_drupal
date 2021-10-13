@@ -1,0 +1,14 @@
+uuid: 7a2fbf8d-df5a-46d8-a872-175b087cf869
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Comentarios sobre el sitio web'
+recipients:
+  - andresfelipemartinezdiaz20@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

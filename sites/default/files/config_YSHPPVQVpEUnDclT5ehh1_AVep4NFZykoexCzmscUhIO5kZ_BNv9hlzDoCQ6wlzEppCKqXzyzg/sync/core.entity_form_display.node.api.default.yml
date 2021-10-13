@@ -1,0 +1,90 @@
+uuid: 076f08ef-9b94-4c58-bd48-080ff6942e3f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.api.field_description
+    - field.field.node.api.field_editor_
+    - field.field.node.api.field_imagen_1
+    - field.field.node.api.field_listado_de_descripcion
+    - image.style.thumbnail
+    - node.type.api
+  module:
+    - image
+    - paragraphs
+    - path
+    - text
+id: node.api.default
+targetEntityType: node
+bundle: api
+mode: default
+content:
+  field_description:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_editor_:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_imagen_1:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_listado_de_descripcion:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Párrafo
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  sticky: true
+  uid: true

@@ -1,0 +1,34 @@
+uuid: 8a8587d6-f06e-45bb-baca-67073d0a8a78
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description_app.field_descripcion
+    - field.field.paragraph.description_app.field_titulo
+    - paragraphs.paragraphs_type.description_app
+  module:
+    - text
+id: paragraph.description_app.default
+targetEntityType: paragraph
+bundle: description_app
+mode: default
+content:
+  field_descripcion:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_titulo:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

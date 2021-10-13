@@ -1,0 +1,23 @@
+uuid: a8fc36d2-3249-475c-a815-6f52338ca821
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.maps
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.maps.body
+field_name: body
+entity_type: block_content
+bundle: maps
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

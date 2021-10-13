@@ -1,0 +1,11 @@
+uuid: 9a3d1b38-da2f-4082-bf99-df104856de55
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_marcas
+id: block_content.bloque_marcas
+target_entity_type_id: block_content
+target_bundle: bloque_marcas
+default_langcode: site_default
+language_alterable: false

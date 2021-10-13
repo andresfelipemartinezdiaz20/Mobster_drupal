@@ -1,0 +1,31 @@
+uuid: 8240b96b-0fab-4a16-8106-f1af426a4308
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:bloque_marcas:70234c2b-1919-4dfe-bffd-401e04eadcb8'
+  module:
+    - block_content
+    - system
+  theme:
+    - mobster_theme
+id: mobster_theme_bloquedemarcas
+theme: mobster_theme
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:70234c2b-1919-4dfe-bffd-401e04eadcb8'
+settings:
+  id: 'block_content:70234c2b-1919-4dfe-bffd-401e04eadcb8'
+  label: 'Bloque de marcas '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

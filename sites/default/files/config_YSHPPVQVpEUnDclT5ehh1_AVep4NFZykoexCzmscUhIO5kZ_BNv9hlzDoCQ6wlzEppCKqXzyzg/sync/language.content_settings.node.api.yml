@@ -1,0 +1,11 @@
+uuid: 6035d258-5556-430f-b3b4-7d6bace2a116
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.api
+id: node.api
+target_entity_type_id: node
+target_bundle: api
+default_langcode: site_default
+language_alterable: false

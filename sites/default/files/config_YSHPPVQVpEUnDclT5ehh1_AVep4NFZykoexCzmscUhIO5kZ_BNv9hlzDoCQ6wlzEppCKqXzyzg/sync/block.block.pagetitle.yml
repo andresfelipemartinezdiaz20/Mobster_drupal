@@ -1,0 +1,18 @@
+uuid: b975c85a-d336-4355-9468-102a8decc532
+langcode: es
+status: true
+dependencies:
+  theme:
+    - mobster_theme
+id: pagetitle
+theme: mobster_theme
+region: featured_top
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

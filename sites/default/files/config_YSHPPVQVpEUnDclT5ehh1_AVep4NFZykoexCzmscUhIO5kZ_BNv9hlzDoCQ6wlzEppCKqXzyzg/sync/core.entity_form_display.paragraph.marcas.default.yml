@@ -1,0 +1,36 @@
+uuid: a9cda342-be31-40cd-8e4d-4dd96c2881cb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.marcas.field_logo
+    - field.field.paragraph.marcas.field_titulo
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.marcas
+  module:
+    - image
+    - text
+id: paragraph.marcas.default
+targetEntityType: paragraph
+bundle: marcas
+mode: default
+content:
+  field_logo:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_titulo:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,26 @@
+uuid: 681eacc5-99e5-4e5d-84fc-dab7786d7092
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.marcas.field_logo
+    - field.field.paragraph.marcas.field_titulo
+    - paragraphs.paragraphs_type.marcas
+  module:
+    - image
+id: paragraph.marcas.default
+targetEntityType: paragraph
+bundle: marcas
+mode: default
+content:
+  field_logo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_titulo: true

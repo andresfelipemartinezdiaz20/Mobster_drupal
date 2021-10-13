@@ -1,0 +1,23 @@
+uuid: 27684157-254a-4362-a5af-df014d714991
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mobster_theme
+id: mobster_theme_marcadelsitio
+theme: mobster_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

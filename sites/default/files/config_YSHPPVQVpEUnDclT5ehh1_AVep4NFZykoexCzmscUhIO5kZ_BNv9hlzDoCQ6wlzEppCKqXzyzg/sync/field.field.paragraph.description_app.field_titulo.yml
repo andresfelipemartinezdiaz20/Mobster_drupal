@@ -1,0 +1,21 @@
+uuid: b6d67836-19e9-49c2-b80c-459998a10ddc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo
+    - paragraphs.paragraphs_type.description_app
+  module:
+    - text
+id: paragraph.description_app.field_titulo
+field_name: field_titulo
+entity_type: paragraph
+bundle: description_app
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,14 @@
+uuid: 244552c7-b113-4a32-a746-798c378b3b10
+name: Mobster
+mail: andresfelipemartinezdiaz20@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

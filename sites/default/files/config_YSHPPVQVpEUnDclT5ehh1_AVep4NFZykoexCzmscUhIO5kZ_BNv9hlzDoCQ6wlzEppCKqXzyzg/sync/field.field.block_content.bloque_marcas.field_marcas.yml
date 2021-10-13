@@ -1,0 +1,31 @@
+uuid: a42b1b27-26b8-483a-8d7b-c140c01a48bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.bloque_marcas
+    - field.storage.block_content.field_marcas
+    - paragraphs.paragraphs_type.marcas
+  module:
+    - entity_reference_revisions
+id: block_content.bloque_marcas.field_marcas
+field_name: field_marcas
+entity_type: block_content
+bundle: bloque_marcas
+label: Marcas
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      marcas: marcas
+    target_bundles_drag_drop:
+      marcas:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

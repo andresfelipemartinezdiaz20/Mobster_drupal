@@ -1,0 +1,21 @@
+uuid: 50f46492-807a-4c57-ade1-438272a688fb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo
+    - paragraphs.paragraphs_type.marcas
+  module:
+    - text
+id: paragraph.marcas.field_titulo
+field_name: field_titulo
+entity_type: paragraph
+bundle: marcas
+label: Titulo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

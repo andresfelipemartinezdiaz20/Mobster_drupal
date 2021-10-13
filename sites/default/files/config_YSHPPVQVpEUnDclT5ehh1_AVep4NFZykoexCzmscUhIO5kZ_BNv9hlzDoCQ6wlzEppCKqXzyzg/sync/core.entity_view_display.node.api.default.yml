@@ -1,0 +1,59 @@
+uuid: 075accae-41f4-495f-b452-14c117b4057f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.api.field_description
+    - field.field.node.api.field_editor_
+    - field.field.node.api.field_imagen_1
+    - field.field.node.api.field_listado_de_descripcion
+    - node.type.api
+  module:
+    - entity_reference_revisions
+    - image
+    - text
+    - user
+id: node.api.default
+targetEntityType: node
+bundle: api
+mode: default
+content:
+  field_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_editor_:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_imagen_1:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_listado_de_descripcion:
+    type: entity_reference_revisions_entity_view
+    weight: 104
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
