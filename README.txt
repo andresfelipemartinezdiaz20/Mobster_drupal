@@ -11,3 +11,7 @@ despues de contener lando y docker instalado ingresar a la carpeta del repositor
 
 * lando start
 * lando db-import backup-2021-10-13T20-14-13.mysql.gz
+
+he ingresar a la url 
+
+https://mobster.lndo.site/
